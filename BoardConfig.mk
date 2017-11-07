@@ -139,5 +139,8 @@ DEVICE_MATRIX_FILE := device/moto/shamu/compatibility_matrix.xml
 
 -include vendor/moto/shamu/BoardConfigVendor.mk
 
+# Binder API version
+TARGET_USES_64_BIT_BINDER := true
+
 # Enable workaround for slow rom flash
 BOARD_SUPPRESS_SECURE_ERASE := true
